@@ -4,6 +4,11 @@ AIR engine is designed from scratch in C++ using the Message Passing Interface (
 
 A preprint of the paper based on this work can be found here: https://arxiv.org/pdf/2001.00164.pdf
 
+AIR can be download also from our GitLab repository: https://gitlab.uni.lu/mtheobald/AIR
+
+More details about the architecture of AIR and detailed experimental results (including a comparison with the modern scale-up SPEs) can be found in [1]. Our initial efforts that paved the way to developing this framework is detailed in [2]. A short video presentation depicting the motivation, architecture, and installation guidelines of AIR can be found at: https://www.youtube.com/watch?v=4A6jlSgvZPE&t
+
+
 Build & Run:
 ------------
 
@@ -127,4 +132,12 @@ Note:
 - By default PER_SEC_MSG_COUNT = 1 (If PER_SEC_MSG_COUNT = n >1, a per second input data -- based on the throughput value -- would be generated as n messages. For very high values of throughput, it is advisable to use n>1 to avoid MPI message size limit exceptions. 
 
 - *AIR/src/dataflow/Vertex.hpp* has options for setting PIPELINE and SANITY_CHECK flags
+
+
+References:
+-----------
+
+[1] VinuE.Venugopal,MartinTheobald,SamiraChaychi,andAmalTawakuli.2020. AIR: A Light-Weight Yet High-Performance Dataflow Engine based on Asynchro- nous Iterative Routing. In SBAC-PAD 2020: IEEE 32nd International Symposium on Computer Architecture and High Performance Computing Porto, Portugal, Sep- tember 8-11, 2020. (accepted).
+
+[2] Vinu E. Venugopal and Martin Theobald. 2020. Benchmarking Synchronous and Asynchronous Stream Processing Systems. In CoDS-COMAD 2020: 7th ACM IKDD CoDS and 25th COMAD, Hyderabad India, January 5-7, 2020. ACM, 322–323. https://doi.org/10.1145/3371158.3371206
 
