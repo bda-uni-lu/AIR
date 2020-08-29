@@ -137,7 +137,7 @@ Note:
 References:
 -----------
 
-[1] VinuE.Venugopal,MartinTheobald,SamiraChaychi,andAmalTawakuli.2020. AIR: A Light-Weight Yet High-Performance Dataflow Engine based on Asynchro- nous Iterative Routing. In SBAC-PAD 2020: IEEE 32nd International Symposium on Computer Architecture and High Performance Computing Porto, Portugal, Sep- tember 8-11, 2020. (accepted).
+[1] VinuE.Venugopal, MartinTheobald, SamiraChaychi,and AmalTawakuli. 2020. AIR: A Light-Weight Yet High-Performance Dataflow Engine based on Asynchronous Iterative Routing. In SBAC-PAD 2020: IEEE 32nd International Symposium on Computer Architecture and High Performance Computing Porto, Portugal, September 8-11, 2020. (accepted).
 
 [2] Vinu E. Venugopal and Martin Theobald. 2020. Benchmarking Synchronous and Asynchronous Stream Processing Systems. In CoDS-COMAD 2020: 7th ACM IKDD CoDS and 25th COMAD, Hyderabad India, January 5-7, 2020. ACM, 322–323. https://doi.org/10.1145/3371158.3371206
 
